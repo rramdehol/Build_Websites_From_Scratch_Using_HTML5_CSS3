@@ -1,0 +1,20 @@
+body{
+	-webkit-font-kerning: antialiased;
+	text-rendering: optimizeLegibility;
+	background-color: darkorange;
+	background: url('images/carrots.jpg') top left no-repeat;
+	/* background-size: 100%; */
+	/* opacity: 0.5; */
+}
+#carrots{
+	height: 25%;
+	width: 25%;
+}
+#kale{
+	height: 25%;
+	width: 25%;
+}
+#potato{
+	height: 25%;
+	width: 25%;
+}
