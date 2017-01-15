@@ -57,7 +57,7 @@ form label{
 	background: #333;
 	color: white;
 }
-form input{
+form input, form a{
 	display: block;
 	width: 290px;
 	padding: 5px;
@@ -68,10 +68,16 @@ form input{
 	border: none;
 }
 
-form input[type="submit"]{
+form input[type="submit"], form a{
 	background:  #333;
 	color: white;
 	cursor: pointer;
 	width: 310px;
 	margin-top: 10px;
+}
+
+form a{
+	text-align: center;
+	text-decoration: none;
+	width: 300px;
 }
