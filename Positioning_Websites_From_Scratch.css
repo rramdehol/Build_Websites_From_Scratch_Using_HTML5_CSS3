@@ -1,0 +1,29 @@
+body{
+	background-color: lightgoldenrodyellow;
+}
+
+#container{
+	height: 100%;
+	width: 100%;
+	background-color: yellow;
+	position: relative;
+}
+.box{
+	background: blue;
+	color: white;
+	height: 150px;
+	width: 150px;
+	margin: 20px 0;
+}
+#relative-box{
+	position: relative;
+	top: 30px;
+	left: -70px;
+}
+/* Out of the normal flow and elements around it collapse
+so you can position it wherever you want on the page*/
+#absolute-box{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}

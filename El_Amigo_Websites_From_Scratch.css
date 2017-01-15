@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6{
 	background: black;
 	color: white;
 }
+/* Styling forms */
 form {
 	text-align: left;
 	width: 300px;
@@ -76,8 +77,44 @@ form input[type="submit"], form a{
 	margin-top: 10px;
 }
 
+form input[type="submit"]:hover{
+	background-color: green;
+}
 form a{
 	text-align: center;
 	text-decoration: none;
 	width: 300px;
 }
+/* Styling links */
+/* MUST MAINTAIN THIS ORDER ALWAYS */
+/* Univisted Link */
+form a:link{
+	color: white;
+}
+/* visited link */
+form a:visited{
+	color: white;
+}
+/* On hover */
+form a:hover{
+	background-color: green;
+}
+/* when you actually click down on the link */
+form a:active{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
