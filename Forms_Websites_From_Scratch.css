@@ -1,0 +1,78 @@
+body{
+	/* background:  url('images/carrots.jpg') no-repeat; */
+	background-color: orange;
+	background-size: 100%;
+}
+
+/* forms */
+#container{
+	width: 500px;
+	margin: 0 auto;
+}
+
+form{
+	background-image: url('images/carrots.jpg');
+	color: white;
+	padding: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+form fieldset{
+	background-color: darkorange;
+	padding: 40px;
+	border: solid 1px white;
+}
+
+form legend {
+	border:  solid 1px #333;
+	background-color: black;
+	padding: 5px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+form input, form textarea {
+	display: block;
+	margin-bottom: 20px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+form label{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+form input[type="text"], form input[type="text"], form textarea {
+	padding: 10px;
+	font-size: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+	background-color: black;
+}
+form textarea {
+	height: 300px;
+	width: 300px;
+}
+
+form input[type="submit"]{
+	border-radius: 50%;
+	background: url('images/Button-Background.jpg') top left repeat;
+	padding: 0 20px;
+	border: solid 1px #d4730c;
+	color: white;
+	font-weight: bold;
+	font-family: cursive;
+	cursor: pointer;
+	height: 50px;
+}
+
+
+
+
+
+
+
+
+
